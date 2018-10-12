@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2018-08-18 17:46:58+0100\n"
-"PO-Revision-Date: 2018-10-09 21:59+0200\n"
+"PO-Revision-Date: 2018-10-12 16:40+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: git-novice/CODE_OF_CONDUCT.md:11
 msgid "{% include links.md %}"
-msgstr ""
+msgstr "{% include links.md %}"
 
 # header
 #: git-novice/CONTRIBUTING.md:1
@@ -116,9 +116,9 @@ msgid ""
 "This is a good way to introduce yourself\n"
 "and to meet some of our community members."
 msgstr ""
-"La façon la plus facile de commencer est de créer une issue (voir le jargon "
-"Github) pour nous faire part d'une faute d'orthographe, d'une formulation "
-"maladroite ou d'une erreur factuelle.\n"
+"La façon la plus facile de commencer est de créer un signalement de problème "
+"(“issue” en anglais) pour nous faire part d'une faute d'orthographe, d'une "
+"formulation maladroite ou d'une erreur factuelle.\n"
 "C'est une bonne façon de vous présenter et de rencontrer certains membres de "
 "notre communauté."
 
@@ -157,7 +157,7 @@ msgstr ""
 "    ou voulez en [créer un][github-join],\n"
 "    mais ne savez pas comment utiliser git,\n"
 "    vous pouvez signaler un problème ou suggérer une amélioration en [créant "
-"une issue][new-issue].\n"
+"un signalement][new-issue].\n"
 "    Cela nous permet d’assigner l’issue à quelqu’un\n"
 "    et d’y répondre dans un fil de discussion."
 
@@ -180,23 +180,26 @@ msgstr ""
 # header
 #: git-novice/CONTRIBUTING.md:46
 msgid "## Where to Contribute"
-msgstr ""
+msgstr "## Où contribuer"
 
 # ordered list
 #: git-novice/CONTRIBUTING.md:48
 msgid "1.  If you wish to change this lesson,"
-msgstr ""
+msgstr "1.  Si vous souhaitez modifier cette leçon,"
 
 #: git-novice/CONTRIBUTING.md:49
 msgid ""
 "    please work in <https://github.com/swcarpentry/git-novice>,\n"
 "    which can be viewed at <https://swcarpentry.github.io/git-novice>."
 msgstr ""
+"    travaillez s’il vous plaît dans <https://github.com/swcarpentry/git-"
+"novice>,\n"
+"    qui peut être vu en suivant: <https://swcarpentry.github.io/git-novice>."
 
 # ordered list
 #: git-novice/CONTRIBUTING.md:52
 msgid "2.  If you wish to change the example lesson,"
-msgstr ""
+msgstr "2.  Si vous souhaitez changer l’exemple de leçon,"
 
 #: git-novice/CONTRIBUTING.md:53
 msgid ""
@@ -204,11 +207,18 @@ msgid ""
 "    which documents the format of our lessons\n"
 "    and can be viewed at <https://carpentries.github.io/lesson-example>."
 msgstr ""
+"    travaillez s’il vous plaît dans <https://github.com/carpentries/lesson-"
+"example>,\n"
+"    qui contient le format de nos leçons\n"
+"    et qui peut être vu en suivant: <https://carpentries.github.io/lesson-"
+"example>."
 
 # ordered list
 #: git-novice/CONTRIBUTING.md:57
 msgid "3.  If you wish to change the template used for workshop websites,"
 msgstr ""
+"3.  Si vous souhaitez modifier le modèle utilisé pour le site internet de "
+"nos ateliers,"
 
 #: git-novice/CONTRIBUTING.md:58
 msgid ""
@@ -219,11 +229,18 @@ msgid ""
 "template>\n"
 "    provide more background on our design choices."
 msgstr ""
+"    travaillez s’il vous plaît dans <https://github.com/carpentries/workshop-"
+"template>.\n"
+"    La page d'accueil de ce dépôt explique comment mettre en place les sites "
+"internet de l'atelier, \n"
+"    tandis que les pages complémentaires dans <https://carpentries.github.io/"
+"workshop-template>\n"
+"    fournissent plus de détails quant à nos choix de conception."
 
 # ordered list
 #: git-novice/CONTRIBUTING.md:63
 msgid "4.  If you wish to change CSS style files, tools,"
-msgstr ""
+msgstr "4.  Si vous souhaitez modifier les fichiers de style CSS, les outils,"
 
 #: git-novice/CONTRIBUTING.md:64
 msgid ""
@@ -231,11 +248,14 @@ msgid ""
 "`_layouts`,\n"
 "    please work in <https://github.com/carpentries/styles>."
 msgstr ""
+"    ou les fichiers standards HTML pour les leçons ou ateliers stockés dans "
+"`_includes` ou `_layouts`,\n"
+"    travaillez s’il vous plait dans <https://github.com/carpentries/styles>."
 
 # header
 #: git-novice/CONTRIBUTING.md:67
 msgid "## What to Contribute"
-msgstr ""
+msgstr "## Quoi contribuer"
 
 #: git-novice/CONTRIBUTING.md:69
 msgid ""
@@ -249,6 +269,18 @@ msgid ""
 "or the issues for [Data Carpentry][dc-issues]\n"
 "and [Software Carpentry][swc-issues] projects."
 msgstr ""
+"Il existe de nombreuses façons de contribuer,\n"
+"de l’écriture de nouveaux exercices et l’amélioration de ceux existant "
+"déjà,\n"
+"à la mise à jour ou l’enrichissement de la documentation\n"
+"et la soumission de [signalements de problème][new-issue]\n"
+"au sujets de choses qui ne fonctionnent pas, ne sont pas claires ou "
+"manquent.\n"
+"Si vous êtes à la recherche d’idées,\n"
+"mettez un oeil à [la liste des signalements de problèmes de ce dépôt]"
+"[issues],\n"
+"ou les signalements des projets [Data Carpentry][dc-issues]\n"
+"et [Software Carpentry][swc-issues]."
 
 #: git-novice/CONTRIBUTING.md:79
 msgid ""
@@ -259,11 +291,18 @@ msgid ""
 "to forget how impenetrable some of this material can be,\n"
 "so fresh eyes are always welcome."
 msgstr ""
+"Les commentaires sur les questions et les examens des demandes d'extraction "
+"sont tout aussi bienvenus: nous sommes plus intelligents ensemble que nous-"
+"mêmes.\n"
+"Les commentaires des novices et des nouveaux arrivants sont particulièrement "
+"précieux: il est facile pour les personnes qui utilisent ces leçons depuis "
+"un certain temps d'oublier à quel point une partie de ce matériel peut être "
+"impénétrable, de sorte que les yeux frais sont toujours les bienvenus."
 
 # header
 #: git-novice/CONTRIBUTING.md:86
 msgid "## What *Not* to Contribute"
-msgstr ""
+msgstr "## Quoi *ne pas* contribuer"
 
 #: git-novice/CONTRIBUTING.md:88
 msgid ""
@@ -277,6 +316,15 @@ msgid ""
 "The first encourages contributors to be honest about requirements;\n"
 "the second, to think hard about priorities."
 msgstr ""
+"Nos leçons contiennent déjà plus de matériel que nous ne pouvons couvrir au "
+"cours d’un atelier typique, de sorte que nous ne sommes généralement *pas* à "
+"la recherche de nouveaux concepts ou outils à ajouter.\n"
+"En règle générale, si vous voulez introduire une nouvelle idée,\n"
+"vous devez (a) estimer combien de temps est nécessaire pour l’enseigner\n"
+"et (b) expliquer comment lui faire de la place.\n"
+"Le premier encourage les contributeurs à être honnêtes concernant les "
+"exigences;\n"
+"la seconde, à réfléchir fortement aux priorités."
 
 #: git-novice/CONTRIBUTING.md:97
 msgid ""
@@ -287,11 +335,18 @@ msgid ""
 "in order to be usable,\n"
 "our lessons must run equally well on all three."
 msgstr ""
+"Nous ne sommes pas à la recherche d’exercices ou d’autres matériels qui sont "
+"limités à un seul système.\n"
+"Nos ateliers contiennent typiquement un mélange d’utilisateurs Windows, Mac "
+"OS X et Linux;\n"
+"afin d’être utilisables,\n"
+"nos leçons doivent fonctionner aussi bien sur les trois systèmes "
+"d’exploitation."
 
 # header
 #: git-novice/CONTRIBUTING.md:102
 msgid "## Using GitHub"
-msgstr ""
+msgstr "## Utiliser GitHub"
 
 #: git-novice/CONTRIBUTING.md:104
 msgid ""
@@ -300,6 +355,10 @@ msgid ""
 "[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
 "In brief:"
 msgstr ""
+"Si vous choisissez de contribuer à travers Github,\n"
+"vous pouvez jeter un oeil à [Comment contribuer à un projet open-source sur "
+"Github][how-contribute].\n"
+"En bref:"
 
 # ordered list
 #: git-novice/CONTRIBUTING.md:109
@@ -307,6 +366,8 @@ msgid ""
 "1.  The published copy of the lesson is in the `gh-pages` branch of the "
 "repository"
 msgstr ""
+"1.  La copie de la leçon publiée se trouve dans la branche `gh-pages` du "
+"dépôt"
 
 #: git-novice/CONTRIBUTING.md:110
 msgid ""
@@ -318,11 +379,21 @@ msgid ""
 "    Please do *not* work directly in your `gh-pages` branch,\n"
 "    since that will make it difficult for you to work on other contributions."
 msgstr ""
+"    (de sorte qu’elle soit générée automatiquement par GitHub).\n"
+"    Veillez à créer toutes les branches à partir de cette dernière,\n"
+"    et de fusionner la branche `gh-pages` du [dépôt maître][repo] dans votre "
+"branche `gh-pages`\n"
+"    avant de commencer à travailler.\n"
+"    S’il vous plait ne travaillez *pas* directement dans votre branche `gh-"
+"pages`,\n"
+"    au risque de vous empêcher de travailler à d’autres contributions."
 
 # ordered list
 #: git-novice/CONTRIBUTING.md:117
 msgid "2.  We use [GitHub flow][github-flow] to manage changes:"
 msgstr ""
+"2.  Nous utilisons [GitHub flow][github-flow] afin de gérer les "
+"modifications:"
 
 #: git-novice/CONTRIBUTING.md:118
 msgid ""
@@ -336,6 +407,16 @@ msgid ""
 "        make changes on your desktop and push to your branch on GitHub:\n"
 "        the pull request will update automatically."
 msgstr ""
+"    1.  Pour chaque changement important, créez une nouvelle branche dans la "
+"copie du dépôt présente sur votre bureau.\n"
+"    2.  Enregistrez les modifications dans votre branche (commit).\n"
+"    3.  Poussez la branche vers votre fourche du dépôt GitHub.\n"
+"    4.  Soumettez une demande de fusionnement (pull request) de votre "
+"branche vers le [dépôt maître][repo].\n"
+"    5.  Si vous recevez des commentaires,\n"
+"        effectuez les changements nécessaires sur votre bureau et poussez "
+"votre branche sur GitHub:\n"
+"        la demande de fusionnement sera mise à jour automatiquement."
 
 #: git-novice/CONTRIBUTING.md:126
 msgid ""
@@ -344,11 +425,16 @@ msgid ""
 "The maintainers are community volunteers,\n"
 "and have final say over what gets merged into the lesson."
 msgstr ""
+"Chaque leçon a deux mainteneurs qui passent en revue les signalements de "
+"problèmes et les demandes de fusionnement\n"
+"ou encouragent les autres à le faire.\n"
+"Les mainteneurs sont des volontaires de la communauté,\n"
+"et ont le dernier mot sur ce qui fusionne avec la leçon."
 
 # header
 #: git-novice/CONTRIBUTING.md:131
 msgid "## Other Resources"
-msgstr ""
+msgstr "## Autres ressources"
 
 #: git-novice/CONTRIBUTING.md:133
 msgid ""
@@ -358,6 +444,11 @@ msgid ""
 "which everyone is welcome to join.\n"
 "You can also [reach us by email][contact]."
 msgstr ""
+"Les discussions générales du [Software Carpentry][swc-site] and du [Data "
+"Carpentry][dc-site]\n"
+"s’effectuent sur la [liste de diffusion de discussion][discuss-list],\n"
+"qui est ouverte à tout le monde.\n"
+"Vous pouvez aussi [nous contacter par email][contact]."
 
 #: git-novice/CONTRIBUTING.md:138
 msgid ""
@@ -378,6 +469,22 @@ msgid ""
 "[swc-lessons]: https://software-carpentry.org/lessons/\n"
 "[swc-site]: https://software-carpentry.org/"
 msgstr ""
+"[contact]: mailto:team@carpentries.org\n"
+"[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
+"[dc-lessons]: http://datacarpentry.org/lessons/\n"
+"[dc-site]: http://datacarpentry.org/\n"
+"[discuss-list]: https://carpentries.topicbox.com/groups/discuss\n"
+"[github]: https://github.com\n"
+"[github-flow]: https://guides.github.com/introduction/flow/\n"
+"[github-join]: https://github.com/join\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-"
+"source-project-on-github\n"
+"[new-issue]: https://github.com/swcarpentry/git-novice/issues/new\n"
+"[issues]: https://github.com/swcarpentry/git-novice/issues/\n"
+"[repo]: https://github.com/swcarpentry/git-novice/\n"
+"[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
+"[swc-lessons]: https://software-carpentry.org/lessons/\n"
+"[swc-site]: https://software-carpentry.org/"
 
 # Front Matter
 #: git-novice/LICENSE.md:1
@@ -388,11 +495,16 @@ msgid ""
 "root: .\n"
 "---"
 msgstr ""
+"—\n"
+"layout: page\n"
+"title: “Licenses”\n"
+"root: .\n"
+"—"
 
 # header
 #: git-novice/LICENSE.md:6
 msgid "## Instructional Material"
-msgstr ""
+msgstr "## Matériel pédagogique"
 
 #: git-novice/LICENSE.md:8
 msgid ""
@@ -402,40 +514,50 @@ msgid ""
 "(and not a substitute for) the [full legal text of the CC BY 4.0\n"
 "license][cc-by-legal]."
 msgstr ""
+"Tout le matériel pédagogique du Software Carpentry et du Data Carpentry est\n"
+"disponible sous la [licence Creative Commons Attribution][cc-by-human].\n"
+"Ce qui suit est un résumé compréhensible (et non un susbtitut) du\n"
+"[texte légal intégral de la licence CC BY 4.0][cc-by-legal]."
 
 #: git-novice/LICENSE.md:14
 msgid "You are free:"
-msgstr ""
+msgstr "Vous êtes libres:"
 
 # unordered list
 #: git-novice/LICENSE.md:16
 msgid ""
 "* to **Share**---copy and redistribute the material in any medium or format"
 msgstr ""
+"* de **Partager**—copier et redistribuer le matériel dans n’importe quel "
+"format ou support"
 
 # unordered list
 #: git-novice/LICENSE.md:17
 msgid "* to **Adapt**---remix, transform, and build upon the material"
 msgstr ""
+"* d’**Adapter**—modifier, transformer, and construire à partir du matériel"
 
 #: git-novice/LICENSE.md:19
 msgid "for any purpose, even commercially."
-msgstr ""
+msgstr "à n’importe quelle fin, même commerciale."
 
 #: git-novice/LICENSE.md:21
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the\n"
 "license terms."
 msgstr ""
+"Le concédant ne peut pas révoquer ces libertés tant que vous respectez les\n"
+"termes de la licence."
 
 #: git-novice/LICENSE.md:24
 msgid "Under the following terms:"
-msgstr ""
+msgstr "Sous les termes suivants:"
 
 # unordered list
 #: git-novice/LICENSE.md:26
 msgid "* **Attribution**---You must give appropriate credit (mentioning that"
 msgstr ""
+"* **Attribution**— Vous devez mentionner les auteur(e)s (mentionner que"
 
 #: git-novice/LICENSE.md:27
 msgid ""
@@ -446,6 +568,13 @@ msgid ""
 "  so in any reasonable manner, but not in any way that suggests the\n"
 "  licensor endorses you or your use."
 msgstr ""
+"  votre travail et dérivé d’une oeuvre qui est Copyright © Software\n"
+"  Carpentry et, lorsque c’est possible, fournir un lien vers\n"
+"  https://software-carpentry.org/), fournir un [lien vers la\n"
+"  licence][cc-by-human], et indiquer si des changements y ont été effectués. "
+"Vous pouvez ainsi procéder\n"
+"  de toutes manière raisonnable, tant que rien ne suggère que le\n"
+"  concédent approuve vous or votre utilisation."
 
 #: git-novice/LICENSE.md:34
 msgid ""
@@ -453,15 +582,19 @@ msgid ""
 "technological measures that legally restrict others from doing\n"
 "anything the license permits.  With the understanding that:"
 msgstr ""
+"**Pas de restriction additionnelle**—Vous ne pouvez pas engager moyens "
+"légaux ou technologiques qui pourraient empêcher légalement toute personne "
+"d’appliquer les termes de la licence. En toute connaissance de:"
 
 #: git-novice/LICENSE.md:38
 msgid "Notices:"
-msgstr ""
+msgstr "Avis:"
 
 # unordered list
 #: git-novice/LICENSE.md:40
 msgid "* You do not have to comply with the license for elements of the"
 msgstr ""
+"* Vous n’avez pas à respecter les termes de licence pour les éléments du"
 
 #: git-novice/LICENSE.md:41
 msgid ""
@@ -472,11 +605,20 @@ msgid ""
 "  rights such as publicity, privacy, or moral rights may limit how you\n"
 "  use the material."
 msgstr ""
+"  matériel qui sont dans le domaine public ou lorsque votre utilisation est "
+"autorisée par une exception\n"
+"  ou une limitation applicable.\n"
+"* Aucune garantie n'est donnée. La licence peut ne pas vous donner toutes "
+"les autorisations\n"
+"  nécessaires à votre utilisation prévue. Par exemple, d'autres droits tels "
+"que la publicité, la vie privée\n"
+"  ou les droits moraux peuvent limiter la façon dont vous utilisez le "
+"matériel."
 
 # header
 #: git-novice/LICENSE.md:48
 msgid "## Software"
-msgstr ""
+msgstr "## Software"
 
 #: git-novice/LICENSE.md:50
 msgid ""
@@ -497,6 +639,13 @@ msgid ""
 "permit persons to whom the Software is furnished to do so, subject to\n"
 "the following conditions:"
 msgstr ""
+"La permission est accordée, gratuitement, à toute personne obtenant une "
+"copie de ce logiciel et des fichiers de documentation associés (le "
+"«logiciel»), pour traiter le logiciel sans restriction, y compris, sans "
+"limitation, les droits d'utilisation, de copie, de modification, de fusion, "
+"publier, distribuer, sous-licencier et/ou vendre des copies du logiciel, et "
+"permettre aux personnes à qui le logiciel est fourni de le faire, sous "
+"réserve des conditions suivantes:"
 
 #: git-novice/LICENSE.md:63
 msgid ""
@@ -505,6 +654,7 @@ msgid ""
 msgstr ""
 
 #: git-novice/LICENSE.md:66
+#, fuzzy
 msgid ""
 "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
 "EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
@@ -514,17 +664,29 @@ msgid ""
 "OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\n"
 "WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
 msgstr ""
+"LE LOGICIEL EST FOURNI «TEL QUEL», SANS GARANTIE D’AUCUNE SORTE,\n"
+"EXPLICITE OU NON, INCLUANT, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES "
+"DE QUALITÉ\n"
+"MARCHANDE ET DE CONVENANCE À UNE FIN PARTICULIÈRE. EN AUCUN CAS LES AUTEURS "
+"OU\n"
+"LES DÉTENTEURS DE DROITS D’AUTEUR NE SERONT TENUS RESPONSABLES DE TOUTE \n"
+"RÉCLAMATION, DOMMAGE OU TOUTE AUTRE RESPONSABILITÉ, Y COMPRIS DANS LE CADRE "
+"D’UN\n"
+"CONTRAT OU NON, OU EN LIEN DIRECT OU INDIRECT AVEC L’UTILISATION DE CE "
+"LOGICIEL."
 
 # header
 #: git-novice/LICENSE.md:74
 msgid "## Trademark"
-msgstr ""
+msgstr "## Marque déposée"
 
 #: git-novice/LICENSE.md:76
 msgid ""
 "\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
 "are registered trademarks of [Community Initiatives][CI]."
 msgstr ""
+"“Software Carpentry” et “Data Carpentry” ainsi que leurs logos respectifs \n"
+"sont des marques déposées de [Community Initiatives][CI]."
 
 #: git-novice/LICENSE.md:79
 msgid ""
@@ -534,6 +696,11 @@ msgid ""
 "[ci]: http://communityin.org/\n"
 "[osi]: https://opensource.org"
 msgstr ""
+"[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
+"[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
+"[mit-license]: https://opensource.org/licenses/mit-license.html\n"
+"[ci]: http://communityin.org/\n"
+"[osi]: https://opensource.org"
 
 #: git-novice/README.md:1
 msgid ""
@@ -543,12 +710,19 @@ msgid ""
 " [![Slack Status](https://img.shields.io/badge/Slack_Channel-swc--git-E01563."
 "svg)](https://swcarpentry.slack.com/messages/C91JS49HD) "
 msgstr ""
+"[![Créez un compte Slack avec nous](https://img.shields.io/badge/"
+"Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite."
+"herokuapp.com/) \n"
+" [![Slack Status](https://img.shields.io/badge/Slack_Channel-swc--git-E01563."
+"svg)](https://swcarpentry.slack.com/messages/C91JS49HD) "
 
 #: git-novice/README.md:4
 msgid ""
 "git-novice\n"
 "=========="
 msgstr ""
+"git-novice\n"
+"=========="
 
 #: git-novice/README.md:7
 msgid ""
@@ -562,32 +736,32 @@ msgstr ""
 
 #: git-novice/README.md:13
 msgid "Maintainers:"
-msgstr ""
+msgstr "Mainteneurs:"
 
 # unordered list
 #: git-novice/README.md:15
 msgid "* [Ivan Gonzalez][gonzalez_ivan]: [@iglpdc](https://github.com/iglpdc)"
-msgstr ""
+msgstr "* [Ivan Gonzalez][gonzalez_ivan]: [@iglpdc](https://github.com/iglpdc)"
 
 # unordered list
 #: git-novice/README.md:16
 msgid "* [Nima Hejazi][hejazi_nima]: [@nhejazi](https://github.com/nhejazi)"
-msgstr ""
+msgstr "* [Nima Hejazi][hejazi_nima]: [@nhejazi](https://github.com/nhejazi)"
 
 # unordered list
 #: git-novice/README.md:17
 msgid "* [Daisie Huang][huang_daisie]: [@daisieh](https://github.com/daisieh)"
-msgstr ""
+msgstr "* [Daisie Huang][huang_daisie]: [@daisieh](https://github.com/daisieh)"
 
 # unordered list
 #: git-novice/README.md:18
 msgid "* [Kat Koziar][koziar_kat]: [@kekoziar](https://github.com/kekoziar)"
-msgstr ""
+msgstr "* [Kat Koziar][koziar_kat]: [@kekoziar](https://github.com/kekoziar)"
 
 # unordered list
 #: git-novice/README.md:19
 msgid "* [Madicken Munk][munk_madicken]: [@munkm](https://github.com/munkm)"
-msgstr ""
+msgstr "* [Madicken Munk][munk_madicken]: [@munkm](https://github.com/munkm)"
 
 #: git-novice/README.md:21
 msgid ""
@@ -598,6 +772,12 @@ msgid ""
 "[munk_madicken]: https://software-carpentry.org/team/#munk_madicken\n"
 "[lesson-example]: https://swcarpentry.github.io/lesson-example"
 msgstr ""
+"[gonzalez_ivan]: https://software-carpentry.org/team/#gonzalez_ivan\n"
+"[hejazi_nima]: https://software-carpentry.org/team/#hejazi_nima\n"
+"[huang_daisie]: https://software-carpentry.org/team/#huang_daisie\n"
+"[koziar_kat]: https://software-carpentry.org/team/#koziar_kat\n"
+"[munk_madicken]: https://software-carpentry.org/team/#munk_madicken\n"
+"[lesson-example]: https://swcarpentry.github.io/lesson-example"
 
 # Front Matter
 #: git-novice/_episodes/01-basics.md:1
