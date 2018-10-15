@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2018-08-18 17:46:58+0100\n"
-"PO-Revision-Date: 2018-10-12 16:40+0200\n"
+"PO-Revision-Date: 2018-10-15 13:25+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,10 +26,10 @@ msgid ""
 "title: \"Contributor Code of Conduct\"\n"
 "---"
 msgstr ""
-"\\-\\-\\-\n"
+"---\n"
 "layout: page\n"
 "title: “Code de conduite des contributeur/trice”\n"
-"\\-\\-\\-"
+"---"
 
 #: git-novice/CODE_OF_CONDUCT.md:5
 msgid ""
@@ -495,11 +495,11 @@ msgid ""
 "root: .\n"
 "---"
 msgstr ""
-"—\n"
+"---\n"
 "layout: page\n"
 "title: “Licenses”\n"
 "root: .\n"
-"—"
+"---"
 
 # header
 #: git-novice/LICENSE.md:6
@@ -628,6 +628,9 @@ msgid ""
 "[OSI][osi]-approved\n"
 "[MIT license][mit-license]."
 msgstr ""
+"Sauf indication contraire, L'exemple de programmes et autres logiciels "
+"fournis par la menuiserie de logiciels et la menuiserie de données sont "
+"disponibles sous la [OSI] [OSI]-approuvé [MIT licence] [mit-licence]."
 
 #: git-novice/LICENSE.md:55
 msgid ""
@@ -652,6 +655,9 @@ msgid ""
 "The above copyright notice and this permission notice shall be\n"
 "included in all copies or substantial portions of the Software."
 msgstr ""
+"La notification du droit d’auteur ci-dessus et cette notification de "
+"permission doivent être\n"
+"inclues dans toutes les copies partielles ou entières de ce logiciel."
 
 #: git-novice/LICENSE.md:66
 #, fuzzy
@@ -733,6 +739,14 @@ msgid ""
 "for instructions on formatting, building, and submitting material,\n"
 "or run `make` in this directory for a list of helpful commands."
 msgstr ""
+"Une introduction à la gestion de versions logicielles avec Git.\n"
+"Consultez <https://swcarpentry.github.io/git-novice/> pour une version "
+"rendue de ce matériel,\n"
+"[la documentation du modèle de cette leçon][lesson-example]\n"
+"pour les instructions relatives au formatage, création, et soumission de "
+"matériel,\n"
+"ou exécuter la commande `make` dans ce dossier pour avoir accès à une liste "
+"de commandes utiles."
 
 #: git-novice/README.md:13
 msgid "Maintainers:"
@@ -796,6 +810,22 @@ msgid ""
 "- \"Version control also allows many people to work in parallel.\"\n"
 "---"
 msgstr ""
+"—\n"
+"titre: Gestion de Versions Automatique\n"
+"enseignement: 5\n"
+"exercice: 0\n"
+"questions:\n"
+"- “Qu’est ce que la gestion de versions et pourquoi l’utiliser?”\n"
+"objectifs:\n"
+"- “Comprendre les bénéfices d’un système de gestion de versions "
+"automatique.”\n"
+"- “Comprendre les bases du fonctionnement de Git.”\n"
+"points clefs:\n"
+"- “La gestion de versions est équivalente à un bouton ‘annuler’ sans "
+"limite.”\n"
+"- “La gestion de versions permet à plusieurs personnes de travailler en "
+"parallèle.”\n"
+"—"
 
 #: git-novice/_episodes/01-basics.md:15
 msgid ""
@@ -804,6 +834,12 @@ msgid ""
 "Even if you aren't collaborating with other people,\n"
 "automated version control is much better than this situation:"
 msgstr ""
+"Nous commencerons par explorer comment la gestion de versions peut-être "
+"utilisée\n"
+"pour conserver la trace de ce qu’une personne a fait et quand.\n"
+"Même si vous ne collaborez pas avec d’autres personnes,\n"
+"la gestion de versions automatique est une bien meilleure solution dans "
+"cette situation:"
 
 #: git-novice/_episodes/01-basics.md:20
 msgid ""
@@ -811,10 +847,13 @@ msgid ""
 "archive_print.php?comicid=1531](../fig/phd101212s.png)](http://www.phdcomics."
 "com)"
 msgstr ""
+"[![Piled Higher and Deeper par Jorge Cham, http://www.phdcomics.com/comics/"
+"archive_print.php?comicid=1531](../fig/phd101212s.png)](http://www.phdcomics."
+"com)"
 
 #: git-novice/_episodes/01-basics.md:22
 msgid "\"Piled Higher and Deeper\" by Jorge Cham, http://www.phdcomics.com"
-msgstr ""
+msgstr "“Piled Higher and Deeper” by Jorge Cham, http://www.phdcomics.com"
 
 #: git-novice/_episodes/01-basics.md:24
 msgid ""
@@ -828,6 +867,18 @@ msgid ""
 "LibreOffice's [Recording and Displaying Changes](https://help.libreoffice."
 "org/Common/Recording_and_Displaying_Changes)."
 msgstr ""
+"Nous avons tous été dans cette situation auparavant: il semble ridicule "
+"d’avoir\n"
+"plusieurs versions quasi-identiques du même document. Certains logiciels de "
+"traitement\n"
+"de texte nous permettent de traiter cela un peu mieux, à l’exemple du [Suivi "
+"de modifications](https://support.office.com/fr-fr/article/suivre-les-"
+"modifications-dans-word-197ba630-0f5f-4a8e-9a77-3712475e806a?"
+"omkt=fr-001&ui=fr-FR&rs=fr-001&ad=US)\n"
+"de Microsoft Word, l’[historique des versions](https://support.google.com/"
+"docs/answer/190843?hl=fr) de Google Docs, ou [enregistrement et affichage "
+"des modifications](https://help.libreoffice.org/Common/"
+"Recording_and_Displaying_Changes/fr)."
 
 #: git-novice/_episodes/01-basics.md:30
 msgid ""
@@ -838,10 +889,18 @@ msgid ""
 "document and play back each change you made, eventually arriving at your\n"
 "more recent version."
 msgstr ""
+"La gestion de versions commencent par une version de base d’un document\n"
+"et enregistre les modifications apportées à chaque étape. Vous pouvez vous\n"
+"le représenter comme un enregistrement de votre progrès: vous pouvez revenir "
+"en arrière\n"
+"jusqu’à la version de base et reproduire chaque changement que vous avez "
+"effectués, et \n"
+"arriver eventuellement à votre version la plus récente."
 
 #: git-novice/_episodes/01-basics.md:36
 msgid "![Changes Are Saved Sequentially](../fig/play-changes.svg)"
 msgstr ""
+"![Les modifications sont sauvegardées dans l’ordre](../fig/play-changes.svg)"
 
 #: git-novice/_episodes/01-basics.md:38
 msgid ""
@@ -852,20 +911,29 @@ msgid ""
 "make independent\n"
 "sets of changes on the same document. "
 msgstr ""
+"Une fois que vous considérez les changements comme distincts du document lui-"
+"même,\n"
+"vous pouvez alors penser à “rejouer” différents ensembles de modifications "
+"sur le document de base, résultants en différentes versions de ce document. "
+"Par exemple, deux utilisateurs peuvent effectuer des ensembles indépendants "
+"de modifications sur le même document. "
 
 #: git-novice/_episodes/01-basics.md:43
 msgid "![Different Versions Can be Saved](../fig/versions.svg)"
 msgstr ""
+"![Différentes versions peuvent êtres enregistrées](../fig/versions.svg)"
 
 #: git-novice/_episodes/01-basics.md:45
 msgid ""
 "Unless there are conflicts, you can even incorporate two sets of changes "
 "into the same base document."
 msgstr ""
+"Sauf en cas de conflit, vous pouvez même incorporer deux ensembles de "
+"modifications au même document de base."
 
 #: git-novice/_episodes/01-basics.md:47
 msgid "![Multiple Versions Can be Merged](../fig/merge.svg)"
-msgstr ""
+msgstr "![Plusieurs versions peuvent être fusionnées](../fig/merge.svg)"
 
 #: git-novice/_episodes/01-basics.md:49
 msgid ""
@@ -883,11 +951,23 @@ msgid ""
 "across different computers, facilitating collaboration among different "
 "people."
 msgstr ""
+"Un système de gestion de version est un outil qui garde la trace de ces "
+"changements pour nous,\n"
+"et ce faisant crée différentes versions de nos documents. Cela nous permet "
+"de \n"
+"décider quelles modifications seront appliquées à la version suivante "
+"(chaque enregistrement de ces\n"
+"modifications est appelé un [commit]({{ page.root }}/reference#commit)), et "
+"en conserve des métadonnées utiles. L’historique complet des commits d’un "
+"projet particulier et ses métadonnées composent un [dépôt]({{ page.root }}/"
+"reference#repository) (repository en anglais). Les dépôts peuvent être "
+"synchronisés entre plusieurs ordinateurs, facilitant les collaborations "
+"entre plusieurs personnes."
 
 # blockquote, which can be cascaded
 #: git-novice/_episodes/01-basics.md:57
 msgid "> ## The Long History of Version Control Systems"
-msgstr ""
+msgstr "> ## La longue histoire des systèmes de gestion de versions"
 
 #: git-novice/_episodes/01-basics.md:58
 msgid ""
@@ -905,6 +985,20 @@ msgid ""
 "possible for multiple authors to work on\n"
 "> the same files concurrently."
 msgstr ""
+">\n"
+"> La gestion de versions automatiques n’est pas une chose nouvelle.\n"
+"> Des outils comme RCS, CVS, ou Subversion existent depuis le début des "
+"années 1980s et sont \n"
+"> utilisés par de nombreuses grosses entreprises.\n"
+"> Cependant, beaucoup sont maintenant considérées comme obsolètes à cause de "
+"diverses limitations dans leurs capacités.\n"
+"> Des systèmes plus récents, comme Git et [Mercurial](https://swcarpentry."
+"github.io/hg-novice/),\n"
+"> sont *distribués*, signifiant qu’ils ne nécessitent pas un serveur "
+"centralisé pour accueillir leurs dépôts.\n"
+"> Ces systèmes modernes inclues en particulier des outils puissants de "
+"fusion afin de permettre à \n"
+"> plusieurs auteurs de travailler sur les mêmes fichiers en parallèle."
 
 # SC/DC Template label
 #: git-novice/_episodes/01-basics.md:66 git-novice/_episodes/02-setup.md:70
@@ -926,12 +1020,12 @@ msgstr ""
 #: git-novice/_episodes/14-supplemental-rstudio.md:108
 #: git-novice/_extras/discuss.md:115
 msgid "{: .callout}"
-msgstr ""
+msgstr "{: .callout}"
 
 # blockquote, which can be cascaded
 #: git-novice/_episodes/01-basics.md:68
 msgid "> ## Paper Writing"
-msgstr ""
+msgstr "> ## Écrire un article"
 
 #: git-novice/_episodes/01-basics.md:69
 msgid ""
@@ -975,7 +1069,7 @@ msgstr ""
 #: git-novice/_episodes/13-hosting.md:75 git-novice/_episodes/13-hosting.md:82
 #: git-novice/_episodes/14-supplemental-rstudio.md:127
 msgid "{: .challenge}"
-msgstr ""
+msgstr "{: .challenge}"
 
 # Front Matter
 #: git-novice/_episodes/02-setup.md:1
@@ -994,6 +1088,20 @@ msgid ""
 "email address, editor, and other preferences once per machine.\"\n"
 "---"
 msgstr ""
+"—\n"
+"titre: Mettre en place Git\n"
+"enseignement: 5\n"
+"exercices: 0\n"
+"questions:\n"
+"- “Comment démarrer avec Git?”\n"
+"objectifs:\n"
+"- “Configurer `git` pour la première fois sur un ordinateur.”\n"
+"- “Comprendre le sens de l’option de configuration `--global`.”\n"
+"points clefs:\n"
+"-   “Utiliser `git config` avec l’option `--global` afin de configurer nom "
+"d’utilisateur, une adresse email, un éditeur de texte, et d’autres "
+"préférences une fois par ordinateur.”\n"
+"—"
 
 #: git-novice/_episodes/02-setup.md:14
 msgid ""
