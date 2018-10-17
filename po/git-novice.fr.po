@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2018-08-18 17:46:58+0100\n"
-"PO-Revision-Date: 2018-10-16 13:40+0200\n"
+"PO-Revision-Date: 2018-10-17 18:17+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1587,18 +1587,34 @@ msgid ""
 "- \"Git stores all of its repository data in the `.git` directory.\"\n"
 "---"
 msgstr ""
+"—\n"
+"title: Créer un dépôt\n"
+"enseignements: 10\n"
+"exercices: 0\n"
+"questions:\n"
+"- “Où est-ce que Git sauvegarde les informations?”\n"
+"objectifs:\n"
+"- “Créer un dépôt Git.”\n"
+"points clefs:\n"
+"- “`git init` initialise un dépôt.”\n"
+"- “Git sauvegarde toutes les données du dépôt dans le dossier `.git`.”\n"
+"—"
 
 #: git-novice/_episodes/03-create.md:14
 msgid ""
 "Once Git is configured,\n"
 "we can start using it."
 msgstr ""
+"Une fois que Git est configuré,\n"
+"nous pouvons commencer à l’utiliser."
 
 #: git-novice/_episodes/03-create.md:17
 msgid ""
 "First, let's create a directory in `Desktop` folder for our work and then "
 "move into that directory:"
 msgstr ""
+"Commençons par créer un dossier sur le `Bureau` dans lequel nous allons "
+"travailler et déplaçons nous dans celui-ci:"
 
 # code block
 #: git-novice/_episodes/03-create.md:19
@@ -1609,6 +1625,11 @@ msgid ""
 "$ cd planets\n"
 "~~~"
 msgstr ""
+"~~~\n"
+"$ cd ~/Desktop\n"
+"$ mkdir planets\n"
+"$ cd planets\n"
+"~~~"
 
 #: git-novice/_episodes/03-create.md:26
 msgid ""
@@ -1616,6 +1637,9 @@ msgid ""
 "reference#repository)—a place where\n"
 "Git can store versions of our files:"
 msgstr ""
+"Ensuite, nous allons demander à Git de faire de `planets` une [dépôt]"
+"({{ page.root }}/reference#repository) — un endroit où\n"
+"Git peut sauvegarder différentes versions de nos fichiers:"
 
 # code block
 #: git-novice/_episodes/03-create.md:29
@@ -1624,12 +1648,18 @@ msgid ""
 "$ git init\n"
 "~~~"
 msgstr ""
+"~~~\n"
+"$ git init\n"
+"~~~"
 
 #: git-novice/_episodes/03-create.md:34
 msgid ""
 "If we use `ls` to show the directory's contents,\n"
 "it appears that nothing has changed:"
 msgstr ""
+"Si nous utilisons la commande `ls` pour afficher le contenu de notre "
+"dossier,\n"
+"il semble que rien n’ait changé:"
 
 # code block
 #: git-novice/_episodes/03-create.md:37 git-novice/_episodes/04-changes.md:57
@@ -1638,6 +1668,9 @@ msgid ""
 "$ ls\n"
 "~~~"
 msgstr ""
+"~~~\n"
+"$ ls\n"
+"~~~"
 
 #: git-novice/_episodes/03-create.md:42
 msgid ""
@@ -1645,6 +1678,9 @@ msgid ""
 "we can see that Git has created a hidden directory within `planets` called `."
 "git`:"
 msgstr ""
+"Mais si nous ajoutons l’option `-a` pour tout afficher,\n"
+"nous pouvons voir que Git a créé un dossier caché dans `planets` appelé `."
+"git`:"
 
 # code block
 #: git-novice/_episodes/03-create.md:45
@@ -1653,6 +1689,9 @@ msgid ""
 "$ ls -a\n"
 "~~~"
 msgstr ""
+"~~~\n"
+"$ ls -a\n"
+"~~~"
 
 # code block
 #: git-novice/_episodes/03-create.md:50
@@ -1661,6 +1700,9 @@ msgid ""
 ".\t..\t.git\n"
 "~~~"
 msgstr ""
+"~~~\n"
+".\t..\t.git\n"
+"~~~"
 
 # SC/DC Template label
 #: git-novice/_episodes/03-create.md:53 git-novice/_episodes/03-create.md:78
@@ -1717,7 +1759,7 @@ msgstr ""
 #: git-novice/_extras/discuss.md:380 git-novice/_extras/discuss.md:426
 #: git-novice/_extras/discuss.md:447
 msgid "{: .output}"
-msgstr ""
+msgstr "{: .output}"
 
 #: git-novice/_episodes/03-create.md:55
 msgid ""
@@ -1728,12 +1770,20 @@ msgid ""
 "If we ever delete the `.git` sub-directory,\n"
 "we will lose the project's history."
 msgstr ""
+"Git utilises ce sous-dossier un peu spécial pour entreposer toutes les "
+"informations concernant ce \n"
+"projet, y compris touts les fichiers et sous-dossiers créés dans le dossier "
+"principal de notre projet.\n"
+"Si nous supprimons le sous-dossier  `.git`,\n"
+"nous perdrons tout l’historique du projet."
 
 #: git-novice/_episodes/03-create.md:60
 msgid ""
 "We can check that everything is set up correctly\n"
 "by asking Git to tell us the status of our project:"
 msgstr ""
+"Nous pouvons vérifier que tout est mis en place correctement\n"
+"en demandant à Git de nous dire quel est le statut de notre projet:"
 
 # code block
 #: git-novice/_episodes/03-create.md:63 git-novice/_episodes/04-changes.md:80
@@ -1749,12 +1799,17 @@ msgid ""
 "$ git status\n"
 "~~~"
 msgstr ""
+"~~~\n"
+"$ git status\n"
+"~~~"
 
 #: git-novice/_episodes/03-create.md:68
 msgid ""
 "If you are using a different version of `git`, the exact\n"
 "wording of the output might be slightly different."
 msgstr ""
+"Si vous utilisez une version différente de `git`, la formulation\n"
+"exacte de la réponse peut différer un peu."
 
 # code block
 #: git-novice/_episodes/03-create.md:71
@@ -1767,11 +1822,18 @@ msgid ""
 "nothing to commit (create/copy files and use \"git add\" to track)\n"
 "~~~"
 msgstr ""
+"~~~\n"
+"# On branch master\n"
+"#\n"
+"# Initial commit\n"
+"#\n"
+"nothing to commit (create/copy files and use “git add” to track)\n"
+"~~~"
 
 # blockquote, which can be cascaded
 #: git-novice/_episodes/03-create.md:80
 msgid "> ## Places to Create Git Repositories"
-msgstr ""
+msgstr "> ## Où créer un dépôt Git"
 
 #: git-novice/_episodes/03-create.md:81
 msgid ""
@@ -1835,6 +1897,63 @@ msgid ""
 "> > ~~~\n"
 "> > {: .output}"
 msgstr ""
+">\n"
+"> En plus de garder la trace des informations relatives aux planètes (projet "
+"déjà créé), \n"
+"> Dracula aimerait aussi y ajouter des informations sur les lunes.\n"
+"> Malgré les craintes de Wolfman, Dracula a créé un projet `moons` dans son "
+"projet \n"
+"> `planets` en suivant les commandes suivantes:\n"
+">\n"
+"> ~~~\n"
+"> $ cd ~/Desktop   # retour au Bureau\n"
+"> $ cd planets     # navigue dans le dossier planets, qui est déjà un dépôt "
+"Git\n"
+"> $ ls -a          # pour s’assurer que le dossier .git existe toujours dans "
+"planets\n"
+"> $ mkdir moons    # crée un sous-dossier planets/moons\n"
+"> $ cd moons       # navigue dans moons\n"
+"> $ git init       # fait du sous-dossier moons un dépôt Git\n"
+"> $ ls -a          # pour s’assurer qu’il y a maintenant un dossier .git "
+"dans moons\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> La commande `git init`, exécutée dans le sous-dossier `moons`, est-elle "
+"requise \n"
+"> pour garder trace des fichiers présentes dans le sous-dossier `moons`?\n"
+"> \n"
+"> > ## Solution\n"
+"> >\n"
+"> > Non. Dracula n’a pas besoin de faire du sous-dossier `moons` un dépôt "
+"Git \n"
+"> > car le dépôt `planets` place sous suivi tous les fichiers, sous-"
+"dossiers, et \n"
+"> > les fichiers contenues dans les sous-dossiers du dossier `planets`.  "
+"Donc,\n"
+"> > afin de placer sous suivi toues les informations relatives aux lunes, "
+"Dracula a\n"
+"> > seulement besoin d’ajouter le sous-dossier `moons` au dépôt `planets`.\n"
+"> > \n"
+"> > De plus, les dépôts Git peuvent s’affecter les uns les autres s’ils sont "
+"“imbriqués”:\n"
+"> > le dépôt extérieur essaiera de contrôler le dépôt interne.\n"
+"> > Dès lors, il est recommandé de créer chaque nouveau dépôt Git\n"
+"> > dans un dossier séparé. Pour être sûr qu’il n’y ait pas de dépôt\n"
+"> > déjà présent dans un dossier, consultez le résultat de `git status`. "
+"S’il\n"
+"> > ressemble au résultat suivant, vous pouvez créer un nouveau dépôt comme "
+"précédemment:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ git status\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > ~~~\n"
+"> > fatal: Not a git repository (or any of the parent directories): .git\n"
+"> > ~~~\n"
+"> > {: .output}"
 
 # SC/DC Template label
 #: git-novice/_episodes/03-create.md:126 git-novice/_episodes/03-create.md:147
@@ -1853,12 +1972,12 @@ msgstr ""
 #: git-novice/_episodes/09-conflict.md:536
 #: git-novice/_episodes/14-supplemental-rstudio.md:126
 msgid "> {: .solution}"
-msgstr ""
+msgstr "> {: .solution}"
 
 # blockquote, which can be cascaded
 #: git-novice/_episodes/03-create.md:129
 msgid "> ## Correcting `git init` Mistakes"
-msgstr ""
+msgstr "> ## Corriger les erreurs de `git init`"
 
 # blockquote, which can be cascaded
 #: git-novice/_episodes/03-create.md:130
@@ -1866,6 +1985,8 @@ msgid ""
 "> Wolfman explains to Dracula how a nested repository is redundant and may "
 "cause confusion"
 msgstr ""
+"> Wolfman explique à Dracula comment un dépôt imbriqué dans un autre est "
+"redondant et peut créer des problèmes"
 
 # blockquote, which can be cascaded
 #: git-novice/_episodes/03-create.md:131
@@ -1873,11 +1994,13 @@ msgid ""
 "> down the road. Dracula would like to remove the nested repository. How can "
 "Dracula undo "
 msgstr ""
+"> plus tard. Dracula voudrait enlever son dépôt imbriqué. Comment Dracula "
+"peut-il "
 
 # blockquote, which can be cascaded
 #: git-novice/_episodes/03-create.md:132
 msgid "> his last `git init` in the `moons` sub-directory?"
-msgstr ""
+msgstr "> défaire son `git init` dans le sous-dossier `moons`?"
 
 #: git-novice/_episodes/03-create.md:133
 msgid ""
@@ -1899,6 +2022,24 @@ msgid ""
 "always check your current directory using the\n"
 "> > command `pwd`."
 msgstr ""
+">\n"
+"> > ## Solution — A UTILISER AVEC PRECAUTIONS!\n"
+"> >\n"
+"> > Pour se remettre de son erreur, Dracula peut simplement supprimer le "
+"dossier `.git`\n"
+"> > dans le sous-dossier moons en exécutant la commande suivante dans le "
+"dossier `planets`:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ rm -rf moons/.git\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > Mais faites attention! Exécuter cette commande dans le mauvais dossier "
+"supprimera\n"
+"> > l’historique entier d’un projet Git important. Prenez donc toujours soin "
+"de vérifier dans quel\n"
+"> > dossier vous êtes au préalable avec la commande `pwd`."
 
 # Front Matter
 #: git-novice/_episodes/04-changes.md:1
